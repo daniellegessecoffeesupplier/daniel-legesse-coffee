@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Legesse | Specialty Coffee Guji Uraga</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #2c2c2c; margin: 0; background-color: #f9f6f2; }
+        
+        /* Hero Section */
+        header { 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('INSERT_LINK_TO_DRYING_BED_PHOTO'); /* Use IMG_20260102_151815_514.jpg here */
+            background-size: cover;
+            background-position: center;
+            color: #fff; padding: 100px 20px; text-align: center; 
+        }
+        header h1 { font-size: 3.5em; margin: 0; letter-spacing: 2px; }
+        header p { font-size: 1.3em; color: #d4a373; margin-top: 10px; }
+
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+
+        /* Stats Bar */
+        .stats-grid { 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 20px; background: #fff; padding: 30px; border-radius: 12px;
+            margin-top: -60px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;
+        }
+        .stat-box h3 { font-size: 0.8em; color: #888; text-transform: uppercase; margin: 0; }
+        .stat-box p { font-size: 1.4em; font-weight: bold; margin: 5px 0; color: #5d4037; }
+
+        /* Gallery/Process Section */
+        .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 60px 0; }
+        .gallery-item img { width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .gallery-text { display: flex; flex-direction: column; justify-content: center; }
+        .gallery-text h2 { color: #5d4037; font-size: 2.2em; margin-bottom: 15px; }
+
+        /* Product Section */
+        .product-section { background: #5d4037; color: white; padding: 60px; border-radius: 12px; text-align: center; margin: 40px 0; }
+        .product-section h2 { color: #d4a373; }
+        .product-flex { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 40px; margin-top: 30px; }
+        .product-img { width: 300px; border-radius: 8px; border: 3px solid #d4a373; }
+
+        .btn { background: #d4a373; color: #fff; padding: 15px 35px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background: #fff; color: #d4a373; }
+
+        footer { text-align: center; padding: 50px; color: #777; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DANIEL LEGESSE</h1>
+    <p>Premium Coffee Supplier | Uraga, Guji Zone</p>
+</header>
+
+<div class="container">
+    <section class="stats-grid">
+        <div class="stat-box"><h3>Origin</h3><p>Guji Uraga</p></div>
+        <div class="stat-box"><h3>Altitude</h3><p>1,960 MASL</p></div>
+        <div class="stat-box"><h3>Process</h3><p>Sun-Dried Natural</p></div>
+        <div class="stat-box"><h3>Quality</h3><p>Specialty Grade 1</p></div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-text">
+            <h2>Meticulous Sun-Drying</h2>
+            <p>Our coffee is harvested in the rich forests of Uraga and dried on raised African beds. We utilize the intense Ethiopian sun and the cool mountain air to develop a complex, honey-like sweetness that defines our Grade 1 profile.</p>
+            <p>Every lot is hand-sorted by our dedicated team to ensure zero defects and maximum flavor clarity.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="./header.jpg" alt="Farmers sorting coffee">
+        </div>
+    </section>
+
+    <section class="product-section">
+        <h2>Ready for Export</h2>
+        <div class="product-flex">
+            <div>
+                <h3>Lot: Specialty Grade 1</h3>
+                <p><strong>Flavor:</strong> Intense sweetness, Red Berries, Tropical Fruits</p>
+                <p><strong>Status:</strong> Bagged & Ready at Warehouse</p>
+                <a href="mailto:daniel.legesse@example.com" class="btn">Inquire for Pricing</a>
+            </div>
+            <img src="./sorting.jpg" class="product-img" alt="./bags.jpg">
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p><strong>Daniel Legesse Coffee Supplier</strong><br>
+    Uraga District, Guji Zone, Ethiopia<br>
+    Direct Source Specialty Coffee</p>
+</footer>
+
+</body>
+</html>
